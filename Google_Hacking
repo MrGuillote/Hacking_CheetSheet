@@ -67,6 +67,14 @@ Obtener informacion que la base de datos de google puede identificar: Dominio us
       "en caso de no obtener resultado utilizar site:"
      
    12* Descubrir accesos ocultos, realizando consultas en forma negativa
+   
+   inurl:temp | inurl:tmp |inurl:backup | inurl:bak site:utn.edu.ar
+   
+   13* Localizando Expl0its
+     filetype:c exploit
+     filetype:c exploit "#incluide <stdio.h>"
+     
+   14* Localizando Expl0its no estándar
      
           
       
