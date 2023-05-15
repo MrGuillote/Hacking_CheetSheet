@@ -1,0 +1,87 @@
+Obtener informacion que la base de datos de google puede identificar: Dominio usado en los ejemplos 1234.com
+
+ 1* Cache de Google "obtener datos de google desde la cache de google, indiferentemente si la pagina esta caida"  
+  https://webcache.googleusercontent.com/search?q=cache:http://1234.com (evitar usar Chrome, ya que bloquea la consulta)
+  
+ 2*  Google como servidor Proxy "hacer una consulta como google"
+  Usar el traductor de google
+  https://translate.google.com/m/translate#en/es/1234.com
+  
+ 3* Listador de Directorios "donde no tiene/existe un archivo index se convierte en un directorio"
+     Escribir en el navegador  
+       intitle:"index of"
+    
+     Ubicar un directorio especifico  "admin"
+       intitle:index.of.admin
+
+     Ubicar un directorio especifico  "log de FTP"  
+       intitle:index.of.ws_ftp.log
+       
+     Tecnica para buscar sistemas operativos y software con sus versiones en servidores "en este caso CentOs"
+       intitle:index.of" server at" (CentOS)
+       
+     Tecnicas Transversales de busqueda
+       intitle:index.of inurl: "/ admin/*"
+
+   4* Sustitucion incremental "brute force = Fuerza Bruta"
+           Ej. /imges/private/69.jpg
+           Ej. /Secrets/0002/B/
+           Ej. tambien agregar a un dominio /1/ o /2/       
+           en el codigo fuente buscar todo lo que tenga http que contengan archivos
+
+  5* Encontrar cosas importantes como contraseñas
+      filetype: HTM HTM
+      Localizar archivos htm ---> para luego abrir como .txt
+
+      intitle:index.of index.php.bak
+      inurl:index.php.bak
+
+  6* Operadores Avanzados
+      site:lanueva.com
+      
+       Errores o Warning 
+         intitle:error
+         intitle:warning
+         
+  7* Obtener acceso a portales de intranet
+      Login | logon intranet
+      
+  8* Usuarios validos como Objetivo
+      site::mit.edu username | userid | employed.ID | "your username is"
+      
+  9* Revelando las políticas de creación de Contraseñas del objetivo
+      password | passcode | "your password is"
+      password | passcode | "your password is" secret question
+      password | passcode | "your password is" REMINDER
+      
+  10* Revelando los portales de ingreso Administrativos del objetivo
+      admin | administrator login
+      
+  11* Encontrar Exploits (excluir menos la extencion)
+      -ext:html personal login bank
+      -ext:html
+      -ext:htm
+      -ext:shtm
+      -ext:asp
+      -ext:php
+      "en caso de no obtener resultado utilizar site:"
+     
+   12* Descubrir accesos ocultos, realizando consultas en forma negativa
+     
+          
+      
+      
+
+
+       
+
+
+   
+  
+
+    
+ 
+  
+
+
+    
